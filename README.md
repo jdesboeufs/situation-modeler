@@ -22,11 +22,11 @@ var anna = situation.person('Anna')
 
 var alex = situation.person('Alex')
     .set('birthdate', '01/01/1995')
-    .childOf(paul, anne);
+    .childOf(paul, anna);
 
 var angela = situation.person('Angela')
     .set('birthdate', '06/07/1990')
-    .childOf(paul, anne)
+    .childOf(paul, anna)
     .occupant('Appartement à Paris', 'tenant', 950);
 
 situation.dwelling('Appartement à Paris')
